@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;700;800&display=swap");
+
+body{
+    font-family: $Mulish;
+}
+
+.heading{
+    &--xlarge{
+        font-size: $xlarge;
+    }
+    &--large{
+        font-size: $large;
+    }
+    &--mlarge{
+        font-size: $mlarge;
+    }
+    &--msmall{
+        font-size: $msmall;
+    }
+    &--small{
+        font-size: $small;
+    }
+    &--xsmall{
+        font-size: $xsmall;
+    }
+
+    &__logo{
+        &--primary{
+            color: $primary;
+        }
+    }
+}
+
+p, ul, label{
+    font-size: $small;
+}
+
+
+

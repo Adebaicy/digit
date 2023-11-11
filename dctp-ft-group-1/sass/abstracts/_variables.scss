@@ -1,0 +1,189 @@
+$breakpoints-up:(
+    'xsmall': 20.0625em,
+    'msmall': 30.0625em,
+    'small': 48.0625em,
+    'medium': 64.0625em,
+    'large': 75.0625em,
+    'xlarge': 90.0625em
+);
+
+
+$breakpoints-down:(
+    'xsmall': 20em,
+    'msmall': 30em,
+    'small': 48em,
+    'medium': 64em,
+    'large': 75em,
+    'xlarge': 90em
+);
+
+$breakpoints: (
+  "xs": "max-width: 480px",
+  "sm": "(min-width: 481px)" and "(max-width: 768px)",
+  "md": "(min-width: 769px)" and "(max-width: 1024px)",
+  "lg": "(min-width: 1025px)" and "(max-width: 1200px)",
+  "xl": "min-width: 1201px",
+);
+
+
+//css variables
+:root{
+    --sky-blue: #04647D;
+    --royal-blue: #0D41E1;
+    --grey-0: #F0F0F0;
+    --grey-100: #DDDDDD;  
+    --grey-600: #535657;
+    --grey-1200: #111111;
+    --font-family: 'Mulish', sans-serif;
+    --font-size-xl: 54px;
+    --font-size-lg: 44px;
+    --font-size-ml: 32px;
+    --font-size-ms: 28px;
+    --font-size-s: 24px;
+    --font-size-xs: 16px;
+}
+
+//color variables
+$primary: var(--royal-blue); //main
+$secondary: var(--grey-0);
+$tertiary: var(--grey-100);
+$body: var(--grey-1200); //body text
+$placeholder: var(--grey-600);
+$ascent: var(--sky-blue);
+
+
+//font variables
+$Mulish: var(--font-family);
+$xlarge: var(--font-size-xl);
+$large: var(--font-size-lg);
+$mlarge: var(--font-size-ml);
+$msmall: var(--font-size-ms);
+$small: var(--font-size-s);
+$xsmall: var(--font-size-xs);
+
+// Colors
+$page-color: #F5F5F5;
+$text-color: #FFFFFF;
+$primary-color: #0D41E1;
+$border-color: transparent;
+$input-bg-color: rgba(255,255,255,0.9);
+$article-bg-color: rgba(255,255,255,0.3);
+$footer-color: #F0F0F0;
+$footer-text-color: #111;
+$footer-foot-color: #DDDDDD;
+
+// Fonts
+$body-font: 'Arial', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+$article-font: 'Mulish';
+
+//text properties
+$primary-font-weight: 400;
+$secondary-font-weight: bold;
+$font-size-larger: 17px;
+$font-size-regular: 14px;
+
+// Spacing
+$default-margin: 0;
+$primary-margin-top: 10px;
+$button-margin-top: 20px;
+$default-padding: 0;
+
+// Breakpoints
+$small-screen: 500px;
+$medium-screen: 600px;
+$large-screen: 1050px;
+
+// Z-index
+$z-index: 1;
+
+//border
+$article-border-radius: 12px;
+$button-radius: 4px;
+$border: 1px solid transparent;
+
+//box shawdow
+$box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.08);
+
+//transform
+$transform: translate(-50%, -50%);
+
+// Sizes
+$primary-width: 100%;
+$primary-height: 100%;
+$input-height: 29px;
+$button-height: 30px;
+
+
+$color-white: white;
+$color-blue: blue;
+$none-border: none;
+$border-radius-size-10: 10px;
+$big-button-height: 66px;
+$big-button-width: 183px;
+$margin-top-50px: 50px;
+$small-button-height: 40px;
+$small-button-width: 150px;
+
+$bg-color1:#E2F9FF;
+$bg-color2: #E9EEFF;
+$bg-color3:#ECECEC;
+
+$text-center: center;
+$margin-center: 0 auto;
+
+$padding-10px:10px;
+$margin-10px: 10px;
+$margin-50px: 50px;
+$padding-50px:50px;
+$display-flex:flex;
+$display-inline:inline;
+$align-center:center;
+$justify-content: space-between;
+$non-list-style: none;
+
+$font-size-30:30px;
+$margin-padding-0: 0;
+$mini-header-colour:  #04647D;
+$font-size-20: 20px;
+$font-size-15:15px;
+
+$border-radius-size-15: 15px;
+$box-shadow:0 0 4px 4px #d0e7d6;
+$margin-padding-10: 10px;
+$margin-padding-100: 100px;
+$margin-padding-270: 270px;
+$border: 1px solid rgba(56, 55, 55, 0.11);
+$flex-0_25: 0.25;
+$flex-1: 1;
+$img_height: 420px;
+$padding-margin-20: 20px;
+$gap-40: 40px;
+$gap-20: 20px;
+
+$zero-top-margin: 0;
+
+$percent-100: 100%;
+$margin-padding-20: 20px;
+$height: 380px;
+$margin-padding-50:50px;
+
+
+$background-colour: #fff;
+$laptop-width:1200px;
+$light-blue:#0d41e1;
+$dark-blue:rgb(0, 0, 124);
+$sky-blue-50:#eaf0fe;
+$light-purple:#eee2fa;
+$light-cyan:#cdf4fe;
+$light-green:#04647d;
+$light-cyan-50:#e2f9ff;
+$light-blue-10:#e9eeff;
+$light-gray:#ececec;
+$light-red:#ffe8e1;
+$light-cyan-20:#e0f7ff;
+$light-gold:#ffeed6;
+$light-green-20:#f4ffe7;
+$light-blue-20:#e9edfa;
+$font-size-12: 12px;
+$read-more-color: #0D41E1;

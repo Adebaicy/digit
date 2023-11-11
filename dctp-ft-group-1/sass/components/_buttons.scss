@@ -1,0 +1,32 @@
+
+
+.button{
+    background-color: $color-blue;
+    color: $color-white;    
+    border: $none-border;
+    border-radius: $border-radius-size-10;
+}
+
+.big-button{
+    @extend .button;
+    height: $big-button-height;
+    width: $big-button-width;
+    margin-top: $margin-top-50px;
+}
+
+
+.small-button{
+    @extend .button;
+    height: $small-button-height;
+    width: $big-button-width;
+}
+//contact-page button
+.contact-button{
+    background: $primary;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+
