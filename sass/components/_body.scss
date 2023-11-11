@@ -1,0 +1,10 @@
+// styles for the body of the page
+body{
+    @include page-style($default-margin, $default-padding, $primary-width, $primary-height, $page-color);
+    box-sizing: border-box;
+}
+
+//styles for the class (main_page)
+.Main_page{
+    @include page-style($default-margin, $default-padding, $primary-width, $primary-height, $page-color);
+}

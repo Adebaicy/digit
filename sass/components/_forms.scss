@@ -1,0 +1,58 @@
+//styes for the Form section
+.Form_Section{
+    height: $primary-height; 
+    width: 45%;
+    margin-top: 30px;
+
+    @media screen and (max-width: $large-screen){
+        width: 80%;
+    }
+
+    @media screen and (max-width: $medium-screen){
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }    
+    
+    @media screen and (max-width: $small-screen){
+        width: 70%;
+    }
+}
+
+.Form_Content{
+    border: $border;
+}
+
+//styles for the element (label)
+label{
+    font-weight: $secondary-font-weight;
+}
+
+.Form_Content--set{
+    margin-top: $primary-margin-top;
+}
+
+//styes for the Form inputs
+.Form_Content--input{
+    @include input-styles( $box-shadow,$input-height, $primary-width, $border, $input-bg-color,$primary-margin-top);
+}
+
+//styes for the Form buttons
+.Form_Content--Button{
+    @include button-styles($primary-color, $border, $button-radius, $text-color, $button-margin-top, $button-height, $primary-width);
+}
+
+//styes for Form anchor links
+.Form_Content--link{
+    text-align: center;
+}
+
+.Form_Content--link1 {
+    text-align: right;
+    padding: 7px 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

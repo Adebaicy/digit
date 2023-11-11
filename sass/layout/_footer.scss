@@ -1,0 +1,50 @@
+.footer{
+    &__row{
+        &--one{
+            background: $secondary;
+            padding: 60px 20px;
+
+            @include up(small){
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                column-gap: 30px;
+            }
+        }
+
+        &--two{
+            background: $tertiary;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+    }
+
+}
+
+.footer__column{
+    &--one, &--two, &--three, &--four{
+
+        .footer__image--logo{
+            margin-bottom: 1rem;
+        }
+       
+        h4.heading{
+            margin:0.5rem 0 1rem;
+
+            @include down(small){
+                margin-top: 2rem;
+            }
+        }
+
+        ul.nav__items{
+            li.nav__item{
+                margin: 1rem 0 1.3rem;
+            }
+        }
+
+        
+        
+    }
+}
+
